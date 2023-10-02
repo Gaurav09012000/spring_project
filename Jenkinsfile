@@ -20,8 +20,8 @@ pipeline {
 		stage('Pushing dcoker image to docker hub '){
 			steps{
 				script{
-					sh "docker login -u devesh29476 -p 'VEDIKAaA@123'"
-					sh "docker push devesh29476/bookservicev9"
+					sh "docker login -u devesh29476 -p ''"
+					sh "docker push /bookservicev9"
 				}
 			}
 		}
